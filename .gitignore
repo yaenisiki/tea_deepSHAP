@@ -1,0 +1,36 @@
+# Deny new root files by default. Only reviewed release files may be added.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/RELEASE_MANIFEST.json
+!/requirements.txt
+!/verify_release.py
+!/lwt_data.py
+!/lwt_models.py
+!/lwt_validation.py
+!/run_lwt.py
+!/freeze_lwt.py
+!/run_lwt_temporal.py
+!/run_lwt_shap.py
+!/run_lwt_loro_primary_ci.py
+!/plot_lwt_chemical.py
+!/plot_lwt_results.py
+!/plot_lwt_loro.py
+!/plot_lwt_shap_results.py
+!/manuscript_plotting.py
+!/compose_panels.py
+!/render_lwt_figures.py
+!/docs/
+/docs/*
+!/docs/DATA_AND_CODE_AVAILABILITY.md
+!/docs/使用说明.md
+!/examples/
+/examples/*
+!/examples/generate_synthetic.py
+!/examples/synthetic_tea.csv
+!/tests/
+/tests/*
+!/tests/test_public_inputs.py
+
+# Forcing a file with git add -f bypasses ignore rules; run verify_release.py.

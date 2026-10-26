@@ -1,0 +1,135 @@
+{
+  "release_date": "2026-10-26",
+  "scope": "Analysis source and independently generated synthetic example only",
+  "original_data_included": false,
+  "trained_model_weights_included": false,
+  "original_sample_results_included": false,
+  "original_git_history_included": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 782,
+      "sha256": "f2224f1852b439f275e2df5cc61ba530e5748bcf44b3d1651c4f4c6c987bf168"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7088,
+      "sha256": "64cd67cc6ec16e39e4e7949c754c9147fa47243e349b7e8a307daab1a0ff5185"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 278,
+      "sha256": "1300f0ea9c4a24b2ca65b2ab991dfab8822b18608c67f66a915dc54a600b1939"
+    },
+    {
+      "path": "verify_release.py",
+      "bytes": 3014,
+      "sha256": "bb863c7cd1d2b610631b4afa317c41d773738101b3d47eff1405276de860dead"
+    },
+    {
+      "path": "lwt_data.py",
+      "bytes": 3163,
+      "sha256": "7ff219aa92124b2fe18ad1f7e7e900b7144aa4d4515d03f14855df83e4c9668a"
+    },
+    {
+      "path": "lwt_models.py",
+      "bytes": 7263,
+      "sha256": "820c2de3b754ebbc801edc9c65155ea845cda4b035b539c4f9d9a082bb541af0"
+    },
+    {
+      "path": "lwt_validation.py",
+      "bytes": 8892,
+      "sha256": "db1b85deeb83204c9deff0c58fb756774857571fdc1643abbc44c9a0646403b5"
+    },
+    {
+      "path": "run_lwt.py",
+      "bytes": 4843,
+      "sha256": "e80ab17acbbfa38c9f842da3dea97996b8b07a20accfb94d390006966acba350"
+    },
+    {
+      "path": "freeze_lwt.py",
+      "bytes": 3317,
+      "sha256": "005579c4f4b9efa8f55f4efa1699cf990d15606807315a98b4cb50a154088af4"
+    },
+    {
+      "path": "run_lwt_temporal.py",
+      "bytes": 11139,
+      "sha256": "1ee6143ddb91d077bcf805314e348009baf381b52c12ba101f321b729078c82d"
+    },
+    {
+      "path": "run_lwt_shap.py",
+      "bytes": 30143,
+      "sha256": "b3821a9031dd3c74f7acfb3c99d02c6dc4ce77aa6be6da78a77401e367773d80"
+    },
+    {
+      "path": "run_lwt_loro_primary_ci.py",
+      "bytes": 7993,
+      "sha256": "d51eec810a540729f0211b1dccbf3af8344bebc87abc591a2f9efd2934ee2164"
+    },
+    {
+      "path": "plot_lwt_chemical.py",
+      "bytes": 17608,
+      "sha256": "672263a62b1ca1123b1488a452df019eadaec69e0aceabca50009c47a535c0de"
+    },
+    {
+      "path": "plot_lwt_results.py",
+      "bytes": 13351,
+      "sha256": "64858081a99472485e75a9cb1e3d55189f3d532a79adbce4c79408ae1a6d40a7"
+    },
+    {
+      "path": "plot_lwt_loro.py",
+      "bytes": 8258,
+      "sha256": "d9b8589c28c3019bdf34c8791a581d9a57a89c4797d83a92733449899b5d1149"
+    },
+    {
+      "path": "plot_lwt_shap_results.py",
+      "bytes": 6303,
+      "sha256": "5c614ebd99ba2c3ecbdea01c1090969f933b2253a37bc5c39eed010abb0b1ecf"
+    },
+    {
+      "path": "manuscript_plotting.py",
+      "bytes": 4818,
+      "sha256": "ed1a1c324f3fda86663bb9d55786136e2b8a389eee93081ff671238470eb4dc6"
+    },
+    {
+      "path": "compose_panels.py",
+      "bytes": 6472,
+      "sha256": "d3e9c85a70f363a74784d19c712b26a6586ddc4cafc711cd416b4a29a42a6f7a"
+    },
+    {
+      "path": "render_lwt_figures.py",
+      "bytes": 5546,
+      "sha256": "745a9fd3a82dabd51bbd94226f468266b10e11e28cf93a3568784b41507111db"
+    },
+    {
+      "path": "docs/DATA_AND_CODE_AVAILABILITY.md",
+      "bytes": 1745,
+      "sha256": "6b6a841ced1c0d76e0ef46f78f5b2fed9822056cd58d8f1146fbac8c223a5ce3"
+    },
+    {
+      "path": "docs/使用说明.md",
+      "bytes": 2761,
+      "sha256": "f2760affd52319aabc3fe61801203fd9d5d585eef17cf42515fe1cb60eb23749"
+    },
+    {
+      "path": "examples/generate_synthetic.py",
+      "bytes": 1633,
+      "sha256": "ddfb9d7aa9e0c7a19f4db329bc8c613347dea61359dc227fe2950ccca0456698"
+    },
+    {
+      "path": "examples/synthetic_tea.csv",
+      "bytes": 43484,
+      "sha256": "ace9397c86605522d1c0c0e29bc70006971eccb0092250d9c4aace55ff8eb184"
+    },
+    {
+      "path": "tests/test_public_inputs.py",
+      "bytes": 4382,
+      "sha256": "be8242fd895b317de48c04544caf6c35839604a8139b065b27b4694db8ed4570"
+    }
+  ]
+}
